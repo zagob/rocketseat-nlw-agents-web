@@ -114,6 +114,19 @@ http://localhost:5173
 - **Sala de Agentes** - Ambiente para interação com agentes inteligentes
 - **Roteamento Dinâmico** - Navegação entre páginas com parâmetros
 
+## 📸 Screenshots
+
+### Tela de Criação de Sala
+![Criação de Sala](./screenshots/create-room.png)
+
+### Sala de Agentes
+![Sala de Agentes](./screenshots/room.png)
+
+### Interface Responsiva
+![Responsivo](./screenshots/responsive.png)
+
+> 💡 **Nota**: As imagens acima mostram a interface moderna e intuitiva do NLW Agentes. Para visualizar as screenshots, certifique-se de que as imagens estão na pasta `screenshots/` do projeto.
+
 ## 📝 Licença
 
 Este projeto foi desenvolvido durante o NLW da Rocketseat. Para mais informações sobre o curso, visite [rocketseat.com.br](https://rocketseat.com.br).
