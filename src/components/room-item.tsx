@@ -1,14 +1,14 @@
-import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
-import type { GetRoomResponse } from "@/http/types/get-rooms-response";
-import { relativeTimeDayjs } from "@/lib/dayjs";
-import { Badge } from "./ui/badge";
+import { ArrowRight } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import type { GetRoomResponse } from '@/http/types/get-rooms-response'
+import { relativeTimeDayjs } from '@/lib/dayjs'
+import { Badge } from './ui/badge'
 
 export function RoomItem(room: GetRoomResponse) {
   return (
     <Link
       className="flex items-center justify-between rounded-lg border p-3 hover:bg-accent/50"
-      to={`/rooms/${room.id}`}
+      to={`/room/${room.id}`}
     >
       <div className="flex flex-1 flex-col gap-1">
         <h3 className="font-medium">{room.name}</h3>
@@ -27,5 +27,5 @@ export function RoomItem(room: GetRoomResponse) {
         Entrar <ArrowRight className="size-3" />
       </span>
     </Link>
-  );
+  )
 }
